@@ -14,5 +14,9 @@ export default {
   components: {
     HelloWorld,
   },
+
+  mounted() {
+    console.log("Mounted:", window.history);
+  },
 };
 </script>
